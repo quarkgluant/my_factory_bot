@@ -36,4 +36,4 @@ CONTAINER ID   IMAGE            COMMAND                  CREATED             STA
 bf92c5a5435c   my_factory_bot   "bash -c 'rm -rf /us…"   51 minutes ago      Up 51 minutes                                        my_factory_bot_web_run_b0a93042943b
 ```
 
-This Dockerized Rails project was created using [Instant Rails](https://github.com/jasonswett/instant_rails).
+The `bf92c5a5435c` is the part you want to copy.
