@@ -37,3 +37,19 @@ bf92c5a5435c   my_factory_bot   "bash -c 'rm -rf /us…"   51 minutes ago      U
 ```
 
 The `bf92c5a5435c` is the part you want to copy.
+
+### Run my_factory_bot.rb
+
+There's a file called `my_factory_bot.rb`. This is where you'll put your custom `MyFactoryBot` definition.
+
+You can run this file in a Rails context using `rails runner`, like this:
+
+```
+rails runner my_factory_bot.rb
+```
+
+If you see the following output, you're good to go:
+
+```bash
+This is the file where your MyFactoryBot definition will go.
+```
